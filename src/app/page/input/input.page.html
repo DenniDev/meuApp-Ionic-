@@ -1,0 +1,72 @@
+<ion-header>
+  <ion-toolbar color="danger">
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>Input</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+  <!-- Default Input -->
+  <ion-input></ion-input>
+
+  <!-- Input with value -->
+  <ion-input value="conteúdo"></ion-input>
+
+  <!-- Input with placeholder -->
+  <ion-input color="danger" placeholder="Informe o nome"></ion-input>
+
+  <!-- Input witch clear button when there is a value -->
+  <ion-input clearInput value="Com ícone para apagar"></ion-input>
+
+  <!--Disable input-->
+  <ion-input value="Disabled" disabled></ion-input>
+
+  <!--Reandonly input -->
+  <ion-input value="Readonly" readonly=""></ion-input>
+
+  <!-- Email type input -->
+  <ion-input type="email" placeholder="informe o email"></ion-input>
+
+  <!-- Url type input -->
+  <ion-input type="url" placeholder="informe a url"></ion-input>
+
+  <!-- password type input -->
+  <ion-input type="password" placeholder="informe a senha"></ion-input>
+
+  <!-- search type input -->
+  <ion-input type="search" placeholder="search"></ion-input>
+
+  <!-- Tel type input -->
+  <ion-input type="tel" placeholder="informe o Telefone"></ion-input>
+
+  <!-- Number type input -->
+  <ion-item>
+    <ion-label>Este label só aceita número</ion-label>
+    <ion-input type="number" value="333"></ion-input>
+  </ion-item>
+
+  <!-- Inputs with labels -->
+  <ion-item>
+    <ion-label>Defalt Label</ion-label>
+    <ion-input></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-label position="floating">Floating Label</ion-label>
+    <ion-input></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-label position="fixed">Fixed Label</ion-label>
+    <ion-input></ion-input>
+  </ion-item>
+
+  <ion-input>
+    <ion-label position="stacked">Stacked Label</ion-label>
+    <ion-input></ion-input>
+  </ion-input>
+
+</ion-content>

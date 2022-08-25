@@ -1,0 +1,14 @@
+<ion-header>
+  <ion-toolbar color="dark">
+    <ion-title>ProgramadorBr</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content scroll="true" overflow-scroll="true" class="iframe-wrapper">
+  <!-- allowfullscreen indica toda a tela -->
+<iframe [src]="url" frameborder="0" allowfullscreen></iframe>
+</ion-content>
+
+<ion-footer>
+  <ion-button expand="full" color="dark" (click)="voltar()">Início</ion-button>
+</ion-footer>
